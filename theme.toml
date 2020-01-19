@@ -3,13 +3,13 @@
 
 name = "Sada"
 license = "MIT"
-licenselink = "https://github.com/darshanbaral/sada/blob/master/LICENSE"
+licenselink = "https://github.com/senter7/Online-CV/blob/master/LICENSE"
 description = "Simple theme for resume created using Bootstrap 4"
-homepage = "https://github.com/darshanbaral/sada"
+homepage = "https://github.com/senter7/Online-CV"
 tags = ["portfolio", "resume", "simple", "onepage"]
 features = ["responsive"]
 min_version = "0.41"
 
 [author]
-  name = "Darshan Baral"
-  homepage = "https://www.darshanbaral.com/"
+  name = "Simone Minasola"
+  homepage = "https://www.8bitof.me"
