@@ -1,0 +1,151 @@
+baseURL = "https://8bitof.me/"
+languageCode = "en-us"
+theme = "sada"
+
+[params]
+    title = "Simone Minasola"
+    author = "Simone Minasola"
+    description_1 = "A"
+    description_2 = "byte"
+    description_3 = "of me..."
+    copyright = ""
+    copyright_link = ""
+
+    # Profile section
+    [params.profile]
+        name = "Simone Minasola"
+        job_title = "Cloud & DevOps Engineer"
+        photo = "images/profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-linkedin-in"
+        url = "www.linkedin.com/in/simone-minasola-b7ba05a5"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-github"
+        url = "https://github.com/senter7"
+        title = "GitHub"
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Master's degree in Computer Engineering"
+        college = "University of Rome, Tor Vergata"
+        dates = "In progress"
+
+        [[params.education.list]]
+        degree = "Bachelor's degree in Computer Engineering"
+        college = "University of Rome, Tor Vergata"
+        dates = "2017"
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "B1"
+
+        [[params.language.list]]
+        language = "Italian"
+        level = "Native"
+
+    # Interests section
+    [params.hobbies]
+        title = "Interests"
+
+        [[params.hobbies.list]]
+        interest = "Big Data & Data Analysis"
+
+		    [[params.hobbies.list]]
+        interest = "Cloud Computing & Distributed Systems"
+
+        [[params.hobbies.list]]
+        interest = "Learning & Self Improvement"
+
+    [params.resume]
+        title = "Resume"
+        description = "You can download the most updated version of my resume by clicking on the link below. The document is written in LateX and will be downloaded in PDF after a real-time build on AWS Lambda. For more information, see projects section."
+        url = "#"
+
+
+    [params.aboutme]
+        description = "Hi, my name is Simone Minasola, and i am a Cloud & DevOps Engineer. I've always been passionate about technology in general, and I'm always looking for opportunities to expand my technical knowledge."
+
+    # Experiences section
+    [params.experiences]
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Cloud Engineer - Data Specialist"
+        dates = "2019 - *Present*"
+		    link = "https://www.claranet.it/"
+        company = "Claranet"
+        details = "Design and definition of new cloud infrastructures according to customer specifications, monitoring and maintenance of critical infrastructures, and management of customer relations."
+
+        [[params.jobs.list]]
+        position = "Junior Developer"
+        dates = "2019 - 2019"
+		    link = "http://www.cpsweb.it/"
+        company = "C.P.S."
+        details = "Requirements analysis and functional analysis for porting application services from on-premise to Cloud, User Acceptance Test of critical applications."
+
+    # Projects section
+    [params.projects]
+        icon = "fa-project-diagram"
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "CI/CD for deployment of static website on AWS"
+        url = "https://github.com/senter7/Terraform-Online-Static-Website"
+        description = "Create and maintain a static website on AWS saving money by using S3 buckets as hosting, CDN CloudFront for the distribution of static assets, ACM for the generation of certificates and CodePipeline and CodeBuild for CI/CD."
+
+		[[params.projects.list]]
+        title = "Sada Theme for HUGO (forked)"
+        url = "https://github.com/senter7/sada"
+        description = "Responsive single page theme for HUGO, modified for specified purpose."
+
+    [[params.projects.list]]
+        title = "Contact Center on cloud (confidential)"
+        url = "#"
+        description = "Simple and powerful Contact Center created for one of the largest European insurance brands on AWS with Amazon Connect. The entire management system has been developed completely serverless with Lambda, Kinesis and Aurora Serverless."
+
+    [[params.projects.list]]
+        title = "Reliable UDP"
+        url = "https://github.com/senter7/Reliable-UDP"
+        description = "A client-server application for file transfer using the network service without connection (UDP) providing file transfer reliably"
+
+    # Skills section
+    [params.skills]
+        icon = "fa-cogs"
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "Terraform, CloudFormation, Ansible, Packer"
+        skillrating = 85 # out of 100
+
+        [[params.skills.list]]
+        skill = "Python, Java, C++"
+        skillrating = 75
+
+        [[params.skills.list]]
+        skill = "AWS CI/CD Tools"
+        skillrating = 75
+
+        [[params.skills.list]]
+        skill = "ETL, Hadoop, Kinesis"
+        skillrating = 70
+
+        [[params.skills.list]]
+        skill = "Linux, BASH, Command Line Tools"
+        skillrating = 70
