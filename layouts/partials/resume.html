@@ -1,0 +1,11 @@
+<h3>{{ .Site.Params.resume.title }} </h3>
+<ul class="list-unstyled" style="text-indent: 1.25em;">
+  <li> {{ .Site.Params.resume.description | markdownify }} </li>
+  <li>
+    <p>
+      <a href="{{ .Site.Params.resume.url }}">
+        <i class="text-warning">Download latest version</i>
+      </a>
+    </p>
+  </li>
+</ul>

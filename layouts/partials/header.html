@@ -1,6 +1,7 @@
 <script src="{{ `src/sada_main.js` | relURL }}"></script>
 <div class="d-flex flex-column border-bottom border-secondary pl-2 pr-2">
   <h1 class="text-white mb-1">{{ .Site.Params.profile.name }}</h1>
+  <h5 class="text-white mb-1">{{ .Site.Params.profile.job_title }}</h5>
   <div class="d-flex flex-row justify-content-between">
     {{ partial "social.html" . }}
     <h3
