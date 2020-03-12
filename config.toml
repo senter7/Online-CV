@@ -24,7 +24,7 @@ theme = "sada"
         [[params.social.list]]
         class = "fab"
         icon = "fa-linkedin-in"
-        url = "www.linkedin.com/in/simone-minasola-b7ba05a5"
+        url = "www.linkedin.com/in/simoneminasola"
         title = "LinkedIn"
 
         [[params.social.list]]
@@ -74,12 +74,13 @@ theme = "sada"
 
     [params.resume]
         title = "Resume"
-        description = "You can download the most updated version of my resume by clicking on the link below. The document is written in LateX and will be downloaded in PDF after a real-time build on AWS Lambda. For more information, see projects section."
-        url = "#"
+        description = "You can download the most updated version of my resume by clicking on the link below. The document is written in LateX and build on AWS CodeBuild."
+        url = "#" # Added in html file
+
 
 
     [params.aboutme]
-        description = "Hi, my name is Simone Minasola and i am a Cloud & DevOps Engineer. I've always been passionate about technology in general, and I'm always looking for opportunities to expand my technical knowledge."
+        description = "Hi, my name is Simone Minasola and i am a Cloud Engineer. I've always been passionate about technology in general, and I'm always looking for opportunities to expand my technical knowledge."
 
     # Experiences section
     [params.experiences]
@@ -87,7 +88,7 @@ theme = "sada"
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Cloud Engineer - Data Specialist"
+        position = "Cloud Engineer"
         dates = "2019 - *Present*"
 		    link = "https://www.claranet.it/"
         company = "Claranet"
@@ -110,17 +111,12 @@ theme = "sada"
         url = "https://github.com/senter7/Terraform-Online-Static-Website"
         description = "Create and maintain a static website on AWS saving money by using S3 buckets as hosting, CDN CloudFront for the distribution of static assets, ACM for the generation of certificates and CodePipeline and CodeBuild for CI/CD."
 
-		[[params.projects.list]]
-        title = "Sada Theme for HUGO (forked)"
-        url = "https://github.com/senter7/sada"
-        description = "Responsive single page theme for HUGO, modified for specified purpose."
-
-    [[params.projects.list]]
+        [[params.projects.list]]
         title = "Contact Center on cloud (confidential)"
         url = "#"
         description = "Simple and powerful Contact Center created for one of the largest European insurance brands on AWS with Amazon Connect. The entire management system has been developed completely serverless with Lambda, Kinesis and Aurora Serverless."
 
-    [[params.projects.list]]
+        [[params.projects.list]]
         title = "Reliable UDP"
         url = "https://github.com/senter7/Reliable-UDP"
         description = "A client-server application for file transfer using the network service without connection (UDP) providing file transfer reliably"
