@@ -74,9 +74,8 @@ theme = "sada"
 
     [params.resume]
         title = "Resume"
-        description = "You can download the most updated version of my resume by clicking on the link below. The document is written in LateX and build on AWS CodeBuild as PDF file. You can download the curriculum in European format or in custom format (more streamlined)."
-        url_european_cv = "#" # Added in html file
-        url_custom_cv = "#" # Added in html file
+        description = "You can download the most updated version of my resume by clicking on the link below."
+        url_cv = "https://www.8bitof.me/assets/Curriculum_Vitae.pdf" # Added in html file
 
 
 
