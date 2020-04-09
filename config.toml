@@ -124,7 +124,7 @@ theme = "sada"
         [[params.projects.list]]
         title = "ETL workflow for massive processing (confidential)"
         url = "#"
-        description = "ETL workflow build on AWS with StepFunction as orchestrator, lambda for file format transformation, Glue for sources crawling and Apache Spark for ETL scripts. I used PySpark, and i wrote the scripts to run both locally and on AWS Glue independently, to have the customer run the unit tests as desired. Finally, a pipeline manages the release in the staging and production environment."
+        description = "ETL workflow build on AWS with StepFunction as orchestrator, lambda for flow activation and external API invocation, Glue for sources crawling and Apache Spark for ETL scripts. I used PySpark, and i wrote the scripts to run both locally and on AWS Glue independently, to have the customer run the unit tests as desired. Finally, a pipeline manages the release in the staging and production environment."
 
         [[params.projects.list]]
         title = "Recommendation engine for CondéNast International (collaboration)"
