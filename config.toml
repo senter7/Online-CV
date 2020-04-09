@@ -80,7 +80,7 @@ theme = "sada"
 
 
     [params.aboutme]
-        description = "Hi, my name is Simone Minasola and i am a Cloud Engineer. I've always been passionate about technology in general, and I'm always looking for opportunities to expand my technical knowledge."
+        description = "I am Simone Minasola and i am a Cloud Engineer with a knowledge in Big Data and Data Transformation. I've always been passionate about technology in general, and I'm always looking for opportunities to expand my technical knowledge."
 
     # Experiences section
     [params.experiences]
