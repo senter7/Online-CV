@@ -4,7 +4,7 @@
     {{ if .url }}
     <li><a class="text-warning" target="_blank" href="{{ .url }}">{{ .title }}</a> - {{ .description | markdownify }}</li>
     {{ else }}
-    <li><a class="text-warning-no-link">{{ .title }}</a> - {{ .description | markdownify }}</li>
+    <li><span class="text-warning">{{ .title }}</span> - {{ .description | markdownify }}</li>
     {{ end }}
 </ul>
 {{ end }}
