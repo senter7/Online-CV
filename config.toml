@@ -14,7 +14,7 @@ theme = "sada"
     # Profile section
     [params.profile]
         name = "Simone Minasola"
-        job_title = "Cloud  Engineer"
+        job_title = "Cloud & Data Engineer"
         photo = "images/profile.jpg"
 
     # Section for links to social websites
@@ -112,7 +112,7 @@ theme = "sada"
 
     # Certification section
     [params.certifications]
-        icon = "fa-id-badge"
+        icon = "fa-tasks"
         title = "Certifications"
 
         [[params.certifications.list]]
