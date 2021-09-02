@@ -1,0 +1,10 @@
+<h3 class="mt-4"><i class="fas {{ .Site.Params.certifications.icon }}"></i> {{ .Site.Params.certifications.title }}</h3>
+{{ range .Site.Params.certifications.list }}
+<ul class="list-unstyled">
+    {{ if .url }}
+    <li><a class="text-warning" target="_blank" href="{{ .url }}">{{ .title }}</a> - {{ .acronym | markdownify }}</li>
+    {{ else }}
+    <li><a class="text-warning">{{ .title }}</a> - {{ .acronym | markdownify }}</li>
+    {{ end }}
+</ul>
+{{ end }}
