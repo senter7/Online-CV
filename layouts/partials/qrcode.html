@@ -1,0 +1,9 @@
+<h3>{{ .Site.Params.qrcode.title }}</h3>
+<div class="m-auto text-center w-10">
+    <img
+            class="rounded"
+            src="{{ .Site.Params.qrcode.img | relURL }}"
+            alt="{{ .Site.Params.qrcode.alt_img }}"
+            style="width: 200px;"
+    />
+</div>

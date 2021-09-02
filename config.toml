@@ -35,9 +35,15 @@ theme = "sada"
 
         [[params.social.list]]
         class = "fas"
-        icon = "fa-id-badge"
+        icon = "fa-tasks"
         url = "https://www.credly.com/users/simone-minasola/badges"
         title = "Credly"
+
+        [[params.social.list]]
+        class = "fas"
+        icon = "fa-id-card"
+        url = "https://www.8bitof.me/assets/simone.minasola.vcf"
+        title = "VCard"
 
     # Education section
     [params.education]
@@ -77,7 +83,10 @@ theme = "sada"
         description = "You can download the most updated version of my resume by clicking on the link below."
         url_cv = "https://www.8bitof.me/assets/Curriculum_Vitae.pdf" # Added in html file
 
-
+    [params.qrcode]
+        title="V-Card"
+        img="images/vcard-qr.jpg"
+        alt_img="Personal V-Card"
 
     [params.aboutme]
         description = "I am a Cloud/Data Engineer with a knowledge in Big Data and Data Transformation. For some years i have dedicated myself to the study of AWS Cloud Services, and i still use them for personal and work projects. I am a Certified AWS Solution Architect and an AWS Authorized Instructor. I've always been passionate about technology in general, and i'm always looking for opportunities to expand my technical knowledge. I am now involved in the Big Data business unit for Claranet Italy, with the aim of extracting value from the data for our customers."
