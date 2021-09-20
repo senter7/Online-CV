@@ -96,12 +96,19 @@ theme = "sada"
         icon = "fa-briefcase"
         title = "Experiences"
 
+                [[params.jobs.list]]
+                position = "Amazon Authorized Instructor"
+                dates = "2021 - *Present*"
+        		    link = "https://aws.amazon.com/training/aws-authorized-instructor-program/"
+                company = "Amazon Web Services"
+                details = "Technical Instructor at Amazon Web Services IT for internal and external customer."
+
         [[params.jobs.list]]
         position = "Cloud Engineer"
         dates = "2019 - *Present*"
 		    link = "https://www.claranet.it/"
         company = "Claranet"
-        details = "Design and definition of new Cloud infrastructures according to customer specifications, definition and orchestration of ETL workflows using serverless technologies, teaching official AWS courses as AAI."
+        details = "Design and definition of new Cloud infrastructures according to customer specifications, definition and orchestration of ETL workflows using serverless technologies."
 
         [[params.jobs.list]]
         position = "Junior Developer"
