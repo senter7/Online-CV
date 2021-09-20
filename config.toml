@@ -96,12 +96,12 @@ theme = "sada"
         icon = "fa-briefcase"
         title = "Experiences"
 
-                [[params.jobs.list]]
-                position = "Amazon Authorized Instructor"
-                dates = "2021 - *Present*"
-        		    link = "https://aws.amazon.com/training/aws-authorized-instructor-program/"
-                company = "Amazon Web Services"
-                details = "Technical Instructor at Amazon Web Services IT for internal and external customer."
+        [[params.jobs.list]]
+        position = "Amazon Authorized Instructor"
+        dates = "2021 - *Present*"
+            link = "https://aws.amazon.com/training/aws-authorized-instructor-program/"
+        company = "Amazon Web Services"
+        details = "Technical Instructor at Amazon Web Services IT for internal and external customer."
 
         [[params.jobs.list]]
         position = "Cloud Engineer"
