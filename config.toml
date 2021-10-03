@@ -128,14 +128,19 @@ theme = "sada"
         acronym = "AAI"
 
         [[params.certifications.list]]
-        title = "HashiCorp Certified: Terraform Associate"
-        url = "https://www.credly.com/badges/263c7e34-06f3-454a-a2da-203d476c5aa0/linked_in"
-        acronym = "Terraform Associate"
+        title = "AWS Certified Data Analytics - Specialty"
+        url = "https://www.credly.com/badges/046cf30c-c67d-493a-9fe4-b11e39761260/public_url"
+        acronym = "DAS-C01"
 
         [[params.certifications.list]]
         title = "AWS Certified Solutions Architect – Associate"
-        url = "https://www.credly.com/badges/31f536bd-e38e-472b-a5b3-6d74073e37da/linked_in"
+        url = "https://www.credly.com/badges/31f536bd-e38e-472b-a5b3-6d74073e37da/public_url"
         acronym = "SAA-C02"
+
+        [[params.certifications.list]]
+        title = "HashiCorp Certified: Terraform Associate"
+        url = "https://www.credly.com/badges/263c7e34-06f3-454a-a2da-203d476c5aa0/public_url"
+        acronym = "Terraform Associate"
 
     # Projects section
     [params.projects]
